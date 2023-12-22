@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "DisKey (Package)": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": true
+    },
+    "DisKey (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
