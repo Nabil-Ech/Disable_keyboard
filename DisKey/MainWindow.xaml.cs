@@ -22,9 +22,7 @@ using Windows.UI.Core;
 
 namespace DisKey
 {
-    /// <summary>
-    /// An empty window that can be used on its own or navigated to within a Frame.
-    /// </summary>
+    //11
     public partial class MainWindow : Window
     {
         private bool isKeyboardEnabled = true;
@@ -60,7 +58,7 @@ namespace DisKey
         }
         private void CoreWindow_KeyDown(CoreWindow sender, KeyEventArgs args)
         {
-            // Handle key down events if needed
+            // Handle key down events if needed 
             args.Handled = true;
         }
         private void CoreWindow_KeyUp(CoreWindow sender, KeyEventArgs args)
